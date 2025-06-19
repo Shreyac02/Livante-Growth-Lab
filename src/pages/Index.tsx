@@ -511,7 +511,11 @@ const Index = ({ user }: IndexProps) => {
                   <img 
                     src="/LOGO.png" 
                     alt="Livante Growth Lab Logo" 
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-contain mix-blend-multiply filter brightness-0 invert"
+                    style={{
+                      filter: 'brightness(0) invert(1)',
+                      mixBlendMode: 'normal'
+                    }}
                   />
                 </div>
                 <div>
@@ -642,6 +646,10 @@ const Index = ({ user }: IndexProps) => {
                   src="/LOGO.png" 
                   alt="Livante Growth Lab Logo" 
                   className="w-full h-full object-contain"
+                  style={{
+                    filter: 'brightness(0) invert(1)',
+                    mixBlendMode: 'normal'
+                  }}
                 />
               </div>
               <h3 className="text-xl font-bold">Livante Growth Lab</h3>
