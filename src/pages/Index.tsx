@@ -509,13 +509,9 @@ const Index = ({ user }: IndexProps) => {
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-lg flex items-center justify-center shadow-lg overflow-hidden">
                   <img 
-                    src="/LOGO.png" 
+                    src="/LOGOL copy.png" 
                     alt="Livante Growth Lab Logo" 
-                    className="w-full h-full object-contain mix-blend-multiply filter brightness-0 invert"
-                    style={{
-                      filter: 'brightness(0) invert(1)',
-                      mixBlendMode: 'normal'
-                    }}
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div>
@@ -643,13 +639,9 @@ const Index = ({ user }: IndexProps) => {
             <div className="flex items-center justify-center space-x-3 mb-4">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/LOGO.png" 
+                  src="/LOGOL copy.png" 
                   alt="Livante Growth Lab Logo" 
                   className="w-full h-full object-contain"
-                  style={{
-                    filter: 'brightness(0) invert(1)',
-                    mixBlendMode: 'normal'
-                  }}
                 />
               </div>
               <h3 className="text-xl font-bold">Livante Growth Lab</h3>
